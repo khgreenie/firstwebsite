@@ -257,6 +257,10 @@ position: absolute;
   height: 156px;
 
 }
+.spread {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 .container_edu {
   display:flex;
