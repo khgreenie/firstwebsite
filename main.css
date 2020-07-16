@@ -1,0 +1,355 @@
+* {
+    font-family: Arial;
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+
+body{
+  background-color: #07134b
+  ;
+}
+
+
+.container_nav {
+display: flex;
+}
+
+
+.navhome {
+  color: #07134b;;
+  text-transform: uppercase;
+  font-weight: bold;
+width: 400px;
+font-size: 150%;
+
+}
+
+.nav {
+color:#84DCCF;
+width: 400px;
+}
+
+.nav:hover .navhome:hover {
+  color:#7B8CDE;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index:-1;
+}
+
+
+
+h1 {
+    font-size: 400%;
+    text-align: center;
+    color:#ef626c;
+}
+
+.title_link:visited {
+  color:#ef626c;
+}
+
+#main {
+  color:#84dccf;
+}
+
+#units {
+  color:#7B8CDE;
+}
+
+
+
+.button{
+  color:#ef626c;
+  font-size: 200%;
+  text-decoration: none;
+  width: 300px;
+  height: 300px;
+  border-radius: 25%;
+  background-size: 300px;
+  text-align: center;
+  
+}
+
+.button:hover {
+  text-decoration: none;
+  font-family:Arial;
+  color:#84DCCF;
+  font-size: 250%;
+  width: 300px;
+  height: 300px;
+  border-radius: 25%;
+  background-size: 300px;
+  text-align: center;
+}
+
+#educationtext {
+position: absolute;
+  top: 400px;
+  left: 400px;
+  transform: translate(-50%, -50%);
+  background-image: url('education.png');
+}
+#charitytext {
+
+position: absolute;
+  top: 400px;
+  left: 700px;
+  transform: translate(-50%, -50%);
+  background-image: url('charity.png');
+}
+#hockeytext {
+position: absolute;
+  top: 400px;
+  left: 1000px;
+  transform: translate(-50%, -50%);
+  background-image: url('hockey.png');
+}
+#environmenttext {
+
+position: absolute;
+  top: 700px;
+  left: 400px;
+  transform: translate(-50%, -50%);
+  background-image: url('environment.png');
+}
+#animalstext {
+ 
+position: absolute;
+  top: 700px;
+  left: 700px;
+  transform: translate(-50%, -50%);
+  background-image: url('animals.png');
+}
+#nailstext {
+
+position: absolute;
+  top: 700px;
+  left: 1000px;
+  transform: translate(-50%, -50%);
+  background-image: url('nails.png');
+}
+#traveltext {
+ 
+position: absolute;
+  top: 1000px;
+  left: 400px;
+  transform: translate(-50%, -50%);
+  background-image: url('travel.png');
+}
+#readingtext {
+
+position: absolute;
+  top: 1000px;
+  left: 700px;
+  transform: translate(-50%, -50%);
+  background-image: url('reading.png');
+}
+#codingtext {
+
+position: absolute;
+  top: 1000px;
+  left: 1000px;
+  transform: translate(-50%, -50%);
+  background-image: url('coding.png');
+}
+
+.about_small {
+    color:#ef626c;
+    font-size: 100%;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    background-size: 100px;
+}
+
+.button_small, .button_small:visited, .button_small:active .button_small:focus {
+  text-decoration: none;
+  font-family:Arial;
+  color:#ef626c;
+  font-size: 100%;
+  
+}
+
+.button_small:hover {
+  text-decoration: none;
+  font-family:Arial;
+  color:#84DCCF;
+  font-size: 150%;
+}
+
+#educationtextsmall {
+  background-image: url('education.png');
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+}
+#charitytextsmall {
+  background-image: url('charity.png');
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+}
+#hockeytextsmall {
+  background-image: url('hockey.png');
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+}
+#environmenttextsmall {
+  background-image: url('environment.png');
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+}
+#animalstextsmall {
+  background-image: url('animals.png');
+  position: absolute;
+  top: 500px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+}
+#nailstextsmall {
+  background-image: url('nails.png');  position: absolute;
+  top: 600px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+}
+#traveltextsmall {
+  background-image: url('travel.png');
+  position: absolute;
+  top: 700px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+}
+#readingtextsmall {
+  background-image: url('reading.png');
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+}
+#codingtextsmall {
+  background-image: url('coding.png');
+  position: absolute;
+  top: 900px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+}
+
+.writing {
+  margin-left: 250px;
+  margin-right: 8%;
+}
+
+.book {
+  width:102px;
+  height: 156px;
+
+}
+
+.container_edu {
+  display:flex;
+}
+
+.col {
+  margin:20px;
+}
+
+.hockeyimg {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  padding: 30px
+}
+
+.hockeymarg {
+  margin:10%;
+}
+
+#hockey1  {
+  display:flex
+}
+#hockey2 {display:flex}
+#hockey3  {display:flex}
+#hockey4  {display:flex}
+#hockey5  {display:flex}
+
+.nails {
+  padding-left:70px;
+  padding-right: 70px;
+}
+
+.jump {
+  text-decoration: none;
+  color:#7B8CDE;
+}
+
+h2, h4{
+  color:#84dccf;
+}
+
+h3 {
+color: #7B8CDE;
+}
+
+p {
+  color:#f6e8ea
+}
+
+
+.questions {
+  margin:8%;
+}
+
+.next {
+  background-color: #84dccf;
+  color:#ef626c ;
+  padding:5px;
+  position:fixed;
+  bottom: 20px;
+  left: 200px
+  
+}
+
+
+li {
+  color:#f6e8ea;
+}
+
+.previous {
+  background-color: #84dccf;
+  color:#ef626c ;
+  padding:5px;
+  position:fixed;
+  bottom: 20px;
+  
+}
+
+.contact {
+    width: 40px;
+    height: 20px;
+    padding-left:20px;
+}
+
+.container_contact {
+  display:flex;
+  justify-content: center;
+  color: #7B8CDE;
+}
+
+.ref {
+  color: #f6e8ea;
+  text-align: center;
+  font-style: underline;
+}
